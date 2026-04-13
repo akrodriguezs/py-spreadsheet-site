@@ -16,7 +16,7 @@ const headingVariants = cva(
                 h3: "text-3xl lg:text-4xl",
                 h4: "text-2xl lg:text-3xl",
                 h5: "text-xl lg:text-2xl",
-                h6: "text-lg: lg:text-xl",
+                h6: "text-lg lg:text-xl",
             },
             weight: {
                 light: "font-light",
@@ -82,8 +82,8 @@ const paragraphVariants = cva(
         variants: {
             size: {
                 sm: "text-base",
-                base: "text-lg:",
-                lg:: "text-xl",
+                base: "text-lg",
+                lg: "text-xl",
                 xl: "text-2xl",
             },
             weight: {
